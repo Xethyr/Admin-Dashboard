@@ -37,6 +37,45 @@ body, html {
 .header {
     border: 1px solid blue;
     grid-area: 1 / 2 / 2 / 3;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 20px 40px;
+    gap: 20px;
+}
+
+.upper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.lower {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.avatar {
+    text-align: end;
+}
+
+.socials {
+    text-align: end;
+    display: grid;
+    gap: 30px;
+    grid-auto-flow: column;
+}
+
+#searchbar {
+    height: 20px;
+    border: none;
+    outline: none;
+    background-color: hsl(0, 0%, 76%);
+    width: 500px;
+    border-radius: 10px;
+}
+
+.bold-large {
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .main {
