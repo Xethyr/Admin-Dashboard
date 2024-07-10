@@ -58,10 +58,17 @@ body, html {
 }
 
 .socials {
-    text-align: end;
+    place-content: end;
     display: grid;
     gap: 30px;
     grid-auto-flow: column;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
 }
 
 #searchbar {
